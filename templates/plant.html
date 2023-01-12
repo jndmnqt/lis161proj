@@ -7,11 +7,16 @@
 <p> {{ plant_details.description }}</p>
 <ul class="plant">
     {%if plant_details.note == "" %}
-    <li> Note: Information to be updated.</li>
+    <li> Note: None.</li>
     {% else %}
-    <li>Note: {{ plant_details.note}}</li>
+    <li>Note: {{ plant_details.note }}</li>
     {%endif%}
-    <li>Price: {{ plant_details.price }} php</li>
+    <li>Price: {{ plant_details.price }} php each</li>
+    {%if plant_details.amount ==0 %}
+    <li> Sold out.</li>
+    {% else %}
+    <li>Quantity available: {{ plant_details.amount }} pieces</li>
+    {%endif%}
 </ul>
 </div>
 {% endblock %}
