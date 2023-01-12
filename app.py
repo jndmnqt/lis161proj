@@ -14,7 +14,7 @@ def plantae(plant_type):
 
 @app.route('/plantae/<plant_type>/<int:plant_id>')
 def plant(plant_type,plant_id):
-    plant_details=plants[plant_type][plant_id]
+    plant_details=plants[plant_types][plant_id]
     return render_template('plant.html',plant_details=plant_details)
  
 if __name__ == "__main__":
