@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="a">
+<h1 class="plants">{{ plant_details.name }}</h3>
+<img src="{{ plant_details.url }}" alt="">
+<p> {{ plant_details.description }}</p>
+<ul class="plant">
+    {%if plant_details.note == "" %}
+    <li> Note: Information to be updated.</li>
+    {% else %}
+    <li>Note: {{ plant_details.note}}</li>
+    {%endif%}
+    <li>Price: {{ plant_details.price }} php</li>
+</ul>
+</div>
+{% endblock %}

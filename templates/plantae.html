@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="plantae"> List of {{ plant_type_template }} plants</h3>
+<ul class="page">
+    {% for plant in plants_template %}
+    <li><a href="/plantae/{{ plant_type_template }}/{{ loop.index - 1 }}">{{ plant.name }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

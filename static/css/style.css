@@ -1,0 +1,86 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+
+
+body {
+    background-color:whitesmoke;
+}
+
+h1 {
+    color:black;
+    font-size:600%;
+    font-weight:bolder;
+    margin-bottom: 0%;
+    }
+
+h1.plantae {
+    font-size: 350%;
+}
+
+h1.plants{
+    position:relative;
+    font-size:330%;
+    z-index: 1;
+}
+
+h2 {
+    font-style: italic;
+    font-size:150%;
+    margin-top:-20px;
+}
+
+a{
+    color:black;
+}
+
+div.a {
+    width: 500px;
+    margin: auto;
+}
+
+p, li {
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+p{
+    font-style: italic;
+    margin-top: 2%;
+    line-height: 95%;
+}
+
+p.main {
+    font-style: normal;
+    font-size:large;
+}
+
+ul.page a:link {
+    text-decoration: none;
+    color: black;
+} 
+
+ul.page a:visited {
+    text-decoration: none;
+}
+  
+ul.page a:hover {
+    text-decoration: underline;
+}
+  
+ul.page a:active {
+    text-decoration: underline;
+}
+
+ul.plant li {
+    font-size: small;
+}
+
+img {
+    display: block;
+    width: 500px;
+    border: black solid 1px;
+    margin-top: -5px;
+    position: relative;
+    z-index: -1;
+}
