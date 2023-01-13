@@ -19,7 +19,7 @@ plants = {
          {
             'name': 'sunburst',
             'price': 650,
-            'amount': 56,
+            'amount': 46,
             'note': 'Sunburst is monocarpic, meaning that after it flowers, the main plant will die.',
             'description': 'Sunburst leaves are white and green, with pink edges that turn red in full sun.',
             'url': 'https://cdn.shopify.com/s/files/1/0259/6015/3122/products/Aeonium_SunburstCristata.png'
