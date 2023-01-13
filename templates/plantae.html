@@ -3,7 +3,7 @@
 {% block content %}
 <div class="plantae">
 <h1 class="plantae"> List of {{ plant_category }} plants</h3>
-<ul class="page">
+<ul class="plantae">
     {% for plant in plants_list %}
     <li><a href="/plantae/{{ plant_category }}/{{ loop.index - 1 }}">{{ plant.name }}</a></li>
     {% endfor %}

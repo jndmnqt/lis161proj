@@ -65,24 +65,24 @@ p.main {
     font-size:120%;
 }
 
-ul.page {
-    margin-top: 2%;
+ul.plantae {
+    margin-top: 5%;
     margin-left: 5%;
 }
 
-ul.page a:link {
+ul.plantae a:link {
     text-decoration: none;
 } 
 
-ul.page a:visited {
+ul.plantae a:visited {
     text-decoration: none;
 }
   
-ul.page a:hover {
+ul.plantae a:hover {
     text-decoration: underline;
 }
   
-ul.page a:active {
+ul.plantae a:active {
     text-decoration: underline;
 }
 
