@@ -1,2 +1,2 @@
 # Project for LIS 161
-Descriptions of plants were mostly obtained from wikipedia.
+Note: Descriptions of plants were mostly obtained from Wikipedia and other gardening sites.
