@@ -40,7 +40,7 @@ plants = {
             'amount': 14,
             'note': 'The plant does not need large amounts of light or water to survive.',
             'description': 'Peace lily has glossy, dark green oval leaves that narrow to a point. It periodically produce lightly fragrant white flowers that resemble calla lilies.',
-            'url': 'https://www.miraclegro.com/sites/g/files/oydgjc111/files/styles/scotts_asset_image_720_440/public/asset_images/dreamstimemaximum_70276461_1080x608_v2.jpg'
+            'url': 'https://www.pennington.com//-/media/Project/OneWeb/Pennington/Images/blog/fertilizer/how-to-grow-and-care-for-a-peace-lily/peace-lily-h.jpg'
         },
         {
             'name': 'African violet',

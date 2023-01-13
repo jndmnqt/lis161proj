@@ -1,10 +1,11 @@
 * {
     font-family:Georgia, 'Times New Roman', Times, serif;
-} 
+}
 
 
 body {
-    background-color:whitesmoke;
+    background-image: url(/static/img/bg.jpg);
+    background-size: 100%;
 }
 
 h1 {
@@ -16,12 +17,13 @@ h1 {
 
 h1.plantae {
     font-size: 350%;
+    line-height: 85%;
 }
 
 h1.plants{
     position:relative;
     font-size:330%;
-    z-index: 1;
+    z-index: 3;
 }
 
 h2 {
@@ -37,6 +39,17 @@ a{
 div.a {
     width: 500px;
     margin: auto;
+    border: black solid 1px;
+    padding: 3%;
+    background-color: whitesmoke;
+}
+
+div.b {
+    width: 600px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding:3%;
+    border:black solid 1px;
 }
 
 p, li {
@@ -55,6 +68,10 @@ p.main {
     font-size:large;
 }
 
+ul.page {
+    margin-top: 2%;
+    margin-left: 5%;
+}
 ul.page a:link {
     text-decoration: none;
     color: black;
@@ -82,5 +99,5 @@ img {
     border: black solid 1px;
     margin-top: -5px;
     position: relative;
-    z-index: -1;
+    z-index: 2;
 }
