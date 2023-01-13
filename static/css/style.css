@@ -32,7 +32,7 @@ h2 {
     margin-top:-2%;
 }
 
-div.a {
+div.plantae {
     max-width: 60%;
     margin: auto;
     border: black solid 1px;
@@ -40,7 +40,7 @@ div.a {
     background-color: whitesmoke;
 }
 
-div.b {
+div.plants {
     max-width: 600px;
     margin: auto;
     background-color: whitesmoke;
