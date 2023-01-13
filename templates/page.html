@@ -1,0 +1,8 @@
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+    {% for plant in plants_list %}
+    <li class="page-item"><a class="page-link" href="/plantae/{{ plant_category }}/{{ loop.index - 1 }}">{{ loop.index  }}</a></li>
+    {% endfor %}
+    </li>
+    </ul>
+</nav>

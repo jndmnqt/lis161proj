@@ -2,7 +2,6 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-
 body {
     background-image: url(/static/img/bg.jpg);
     background-size: 100%;
@@ -24,6 +23,7 @@ h1.plants{
     position:relative;
     font-size:330%;
     z-index: 3;
+    line-height:90%;
 }
 
 h2 {
@@ -32,15 +32,11 @@ h2 {
     margin-top:-20px;
 }
 
-a{
-    color:black;
-}
-
 div.a {
     width: 500px;
     margin: auto;
     border: black solid 1px;
-    padding: 3%;
+    padding: 5ch;
     background-color: whitesmoke;
 }
 
@@ -48,8 +44,9 @@ div.b {
     width: 600px;
     margin: auto;
     background-color: whitesmoke;
-    padding:3%;
+    padding:5ch;
     border:black solid 1px;
+    margin-bottom: 2%;
 }
 
 p, li {
@@ -74,7 +71,6 @@ ul.page {
 }
 ul.page a:link {
     text-decoration: none;
-    color: black;
 } 
 
 ul.page a:visited {
@@ -98,6 +94,15 @@ img {
     width: 500px;
     border: black solid 1px;
     margin-top: -5px;
-    position: relative;
+    position:sticky;
     z-index: 2;
+    align-self: center;
+}
+
+a {
+    color: #035F1D;
+}
+
+a.page-link{
+    color:black !important;
 }
